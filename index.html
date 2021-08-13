@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnimeQuotes</title>
+    <meta property="og:image" content="https://image.flaticon.com/icons/png/512/1484/1484824.png">
+	<meta name="twitter:card" content="https://image.flaticon.com/icons/png/512/1484/1484824.png">
+  <meta name="description" content="Get Amazing Quotes From All Anime CHARACTER and Shows." />
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/1484/1484824.png" type="image/gif" sizes="16x16">
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <h1>AnimeQuotes</h1>
+    <hr style="width: 800px; margin: auto" />
+
+    
+
+    <div class="container">
+      <div class="info-animi">
+        <div class="action_page">
+
+          <button id="modal-btn" class="serch-btn">Random Quote</button>
+          
+          <select name="title-type" id="title-type">
+            <option value="anime">ANIME</option>
+            <option value="character">CHARACTER</option>
+          </select>
+          <input type="search" id="title" placeholder="name of character or animi" class="input"/>
+          <button class="serch-btn" type="button" id="search-button">SEARCH</button>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div id="myModal" class="modal">
+
+        <div class="quote-card" id ="qcards">
+          <span id="close">&times;</span>
+          <p class="quote">hello world Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis et nisi neque deleniti earum sapiente aperiam rem ut, inventore nulla eum magnam nesciunt distinctio labore dolor ipsum optio totam?</p>
+          <cite class="author">by Sitama from Conan</cite>
+        </div>
+
+    </div>
+
+    <div id="quots-list">
+        <!-- <blockquote class="quote-card" id ="qcards">
+            <p class="quote">hello world Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis et nisi neque deleniti earum sapiente aperiam rem ut, inventore nulla eum magnam nesciunt distinctio labore dolor ipsum optio totam?</p>
+            <cite class="author">by Sitama from Conan</cite>
+      </blockquote> -->
+    </div>
+    <div id="pagination" class="page">
+    </div>
+    <hr style="width: 800px; margin: auto" />
+    <h4>Made With ❤️ By <a href="Https://github.com/healer-op" target="_blank">Healer</a></h4>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
